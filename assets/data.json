@@ -1,0 +1,2470 @@
+{
+  "themes": {
+    "音乐": [
+      {
+        "id": "music_01",
+        "text": "爵士切分音"
+      },
+      {
+        "id": "music_02",
+        "text": "赋格的声部"
+      },
+      {
+        "id": "music_03",
+        "text": "电吉他泛音"
+      },
+      {
+        "id": "music_04",
+        "text": "无调性序列"
+      },
+      {
+        "id": "music_05",
+        "text": "预置钢琴的钉槌"
+      },
+      {
+        "id": "music_06",
+        "text": "磁带循环的接缝"
+      },
+      {
+        "id": "music_07",
+        "text": "管风琴的持续音柱"
+      },
+      {
+        "id": "music_08",
+        "text": "喉音的倍频叠层"
+      },
+      {
+        "id": "music_09",
+        "text": "钟声的差拍干涉"
+      },
+      {
+        "id": "music_10",
+        "text": "噪声门后的余响"
+      },
+      {
+        "id": "music_11",
+        "text": "十二音列的倒影"
+      },
+      {
+        "id": "music_12",
+        "text": "即兴里的休止核"
+      },
+      {
+        "id": "music_13",
+        "text": "铜管阻塞的闷金"
+      },
+      {
+        "id": "music_14",
+        "text": "水下录音的低频雾"
+      },
+      {
+        "id": "music_15",
+        "text": "极简重复的相位差"
+      },
+      {
+        "id": "music_16",
+        "text": "弓杆击弦的干燥颗粒"
+      },
+      {
+        "id": "music_17",
+        "text": "微分音之间的缝隙"
+      },
+      {
+        "id": "music_18",
+        "text": "鼓皮边缘的谐波环"
+      }
+    ],
+    "绘画": [
+      {
+        "id": "paint_01",
+        "text": "湿壁画未干的灰泥层"
+      },
+      {
+        "id": "paint_02",
+        "text": "补色并置的视震"
+      },
+      {
+        "id": "paint_03",
+        "text": "罩染中的透明釉"
+      },
+      {
+        "id": "paint_04",
+        "text": "黄金分割的隐形骨架"
+      },
+      {
+        "id": "paint_05",
+        "text": "色块碰撞的硬边"
+      },
+      {
+        "id": "paint_06",
+        "text": "炭条擦痕的负形"
+      },
+      {
+        "id": "paint_07",
+        "text": "透视灭点的逃逸"
+      },
+      {
+        "id": "paint_08",
+        "text": "坦培拉的蛋黄乳化"
+      },
+      {
+        "id": "paint_09",
+        "text": "留白如切断的空气"
+      },
+      {
+        "id": "paint_10",
+        "text": "笔触方向的力线"
+      },
+      {
+        "id": "paint_11",
+        "text": "厚涂高光的浮雕感"
+      },
+      {
+        "id": "paint_12",
+        "text": "单色底子的温度差"
+      },
+      {
+        "id": "paint_13",
+        "text": "轮廓线被色彩吞没"
+      },
+      {
+        "id": "paint_14",
+        "text": "画面中的冷暖对峙"
+      },
+      {
+        "id": "paint_15",
+        "text": "未完成处的底稿网格"
+      },
+      {
+        "id": "paint_16",
+        "text": "矿物颜料的颗粒反光"
+      },
+      {
+        "id": "paint_17",
+        "text": "对角线张力的切割"
+      }
+    ],
+    "建筑": [
+      {
+        "id": "arch_01",
+        "text": "哥特肋拱的力流"
+      },
+      {
+        "id": "arch_02",
+        "text": "包豪斯的模数网格"
+      },
+      {
+        "id": "arch_03",
+        "text": "清水混凝土的木纹模板"
+      },
+      {
+        "id": "arch_04",
+        "text": "飞扶壁的外侧斜撑"
+      },
+      {
+        "id": "arch_05",
+        "text": "光井里的垂直时辰"
+      },
+      {
+        "id": "arch_06",
+        "text": "檐口阴影的锐切"
+      },
+      {
+        "id": "arch_07",
+        "text": "穹顶眼的圆形天光"
+      },
+      {
+        "id": "arch_08",
+        "text": "砖券的受压弧"
+      },
+      {
+        "id": "arch_09",
+        "text": "柱廊的节奏重复"
+      },
+      {
+        "id": "arch_10",
+        "text": "飘窗的悬臂平衡"
+      },
+      {
+        "id": "arch_11",
+        "text": "中庭的回声体积"
+      },
+      {
+        "id": "arch_12",
+        "text": "幕墙反射的城市切片"
+      },
+      {
+        "id": "arch_13",
+        "text": "台阶踏面的人体尺度"
+      },
+      {
+        "id": "arch_14",
+        "text": "风道穿过的窄巷"
+      },
+      {
+        "id": "arch_15",
+        "text": "结构暴露的节点钢板"
+      },
+      {
+        "id": "arch_16",
+        "text": "坡屋顶的排水向量"
+      },
+      {
+        "id": "arch_17",
+        "text": "门槛石的磨损高程"
+      }
+    ],
+    "机械": [
+      {
+        "id": "mech_01",
+        "text": "黄铜擒纵轮"
+      },
+      {
+        "id": "mech_02",
+        "text": "蒸汽机气缸"
+      },
+      {
+        "id": "mech_03",
+        "text": "齿轮啮合的压力角"
+      },
+      {
+        "id": "mech_04",
+        "text": "凸轮曲线的升程"
+      },
+      {
+        "id": "mech_05",
+        "text": "飞轮储存的角动量"
+      },
+      {
+        "id": "mech_06",
+        "text": "连杆机构的死点"
+      },
+      {
+        "id": "mech_07",
+        "text": "涡轮叶片的攻角"
+      },
+      {
+        "id": "mech_08",
+        "text": "丝杠传动的螺距"
+      },
+      {
+        "id": "mech_09",
+        "text": "棘轮只许前进的齿"
+      },
+      {
+        "id": "mech_10",
+        "text": "差速器的左右分配"
+      },
+      {
+        "id": "mech_11",
+        "text": "活塞环的密封刮痕"
+      },
+      {
+        "id": "mech_12",
+        "text": "钟表发条的力矩衰减"
+      },
+      {
+        "id": "mech_13",
+        "text": "万向节的夹角补偿"
+      },
+      {
+        "id": "mech_14",
+        "text": "液压缸的层流推进"
+      },
+      {
+        "id": "mech_15",
+        "text": "平衡锤的配重沉默"
+      },
+      {
+        "id": "mech_16",
+        "text": "轴承滚道的微振纹"
+      },
+      {
+        "id": "mech_17",
+        "text": "调速器的离心开合"
+      }
+    ],
+    "文学": [
+      {
+        "id": "lit_01",
+        "text": "不可靠叙述的裂缝"
+      },
+      {
+        "id": "lit_02",
+        "text": "意识流的句法湍流"
+      },
+      {
+        "id": "lit_03",
+        "text": "互文性的隐形引线"
+      },
+      {
+        "id": "lit_04",
+        "text": "空白页上的省略号重力"
+      },
+      {
+        "id": "lit_05",
+        "text": "第二人称的逼近"
+      },
+      {
+        "id": "lit_06",
+        "text": "时间线的折叠章节"
+      },
+      {
+        "id": "lit_07",
+        "text": "隐喻的过度生长"
+      },
+      {
+        "id": "lit_08",
+        "text": "旁白突然的失声"
+      },
+      {
+        "id": "lit_09",
+        "text": "对话中未说出口的半句"
+      },
+      {
+        "id": "lit_10",
+        "text": "叙事焦距的突然变浅"
+      },
+      {
+        "id": "lit_11",
+        "text": "典故如地层的错位"
+      },
+      {
+        "id": "lit_12",
+        "text": "重复句式的咒语感"
+      },
+      {
+        "id": "lit_13",
+        "text": "脚注反客为主"
+      },
+      {
+        "id": "lit_14",
+        "text": "结局之前的假高潮"
+      },
+      {
+        "id": "lit_15",
+        "text": "物的视角取代人心"
+      },
+      {
+        "id": "lit_16",
+        "text": "语言自身的卡顿"
+      },
+      {
+        "id": "lit_17",
+        "text": "标题对正文的背叛"
+      }
+    ],
+    "摄影": [
+      {
+        "id": "photo_01",
+        "text": "135胶卷颗粒"
+      },
+      {
+        "id": "photo_02",
+        "text": "早期立体照片透视"
+      },
+      {
+        "id": "photo_03",
+        "text": "决定性瞬间"
+      },
+      {
+        "id": "photo_04",
+        "text": "低调照明"
+      },
+      {
+        "id": "photo_05",
+        "text": "区段曝光的第VIII区"
+      },
+      {
+        "id": "photo_06",
+        "text": "达盖尔银版的水银雾"
+      },
+      {
+        "id": "photo_07",
+        "text": "针孔成像的时间堆叠"
+      },
+      {
+        "id": "photo_08",
+        "text": "红外底片的叶脉白"
+      },
+      {
+        "id": "photo_09",
+        "text": "移轴镜头的沙盘错觉"
+      },
+      {
+        "id": "photo_10",
+        "text": "暗房遮挡与燃烧"
+      },
+      {
+        "id": "photo_11",
+        "text": "伦勃朗光的三角颊"
+      },
+      {
+        "id": "photo_12",
+        "text": "运动模糊的矢量尾"
+      },
+      {
+        "id": "photo_13",
+        "text": "接触印相的黑边框"
+      },
+      {
+        "id": "photo_14",
+        "text": "闪光同步的高速冻结"
+      },
+      {
+        "id": "photo_15",
+        "text": "色温漂移的黄昏青"
+      },
+      {
+        "id": "photo_16",
+        "text": "双重曝光的叠影骨骼"
+      },
+      {
+        "id": "photo_17",
+        "text": "超广角边缘的拉伸畸变"
+      },
+      {
+        "id": "photo_18",
+        "text": "大画幅毛玻璃上的倒像"
+      }
+    ],
+    "电影": [
+      {
+        "id": "film_01",
+        "text": "跳切造成的时间裂缝"
+      },
+      {
+        "id": "film_02",
+        "text": "长镜头内部的调度几何"
+      },
+      {
+        "id": "film_03",
+        "text": "画外声音的幽灵空间"
+      },
+      {
+        "id": "film_04",
+        "text": "景深突然塌缩的焦点"
+      },
+      {
+        "id": "film_05",
+        "text": "蒙太奇的撞击点"
+      },
+      {
+        "id": "film_06",
+        "text": "反打镜头的视线错位"
+      },
+      {
+        "id": "film_07",
+        "text": "过曝天空的信息抹除"
+      },
+      {
+        "id": "film_08",
+        "text": "手持呼吸感的微颤"
+      },
+      {
+        "id": "film_09",
+        "text": "轴线上的越轴违规"
+      },
+      {
+        "id": "film_10",
+        "text": "字幕侵入画面的层"
+      },
+      {
+        "id": "film_11",
+        "text": "黑场里的一声开门"
+      },
+      {
+        "id": "film_12",
+        "text": "道具特写的物恋"
+      },
+      {
+        "id": "film_13",
+        "text": "时间膨胀的升格雨"
+      },
+      {
+        "id": "film_14",
+        "text": "银幕边缘的窥视框"
+      },
+      {
+        "id": "film_15",
+        "text": "色彩脚本的情绪曲线"
+      },
+      {
+        "id": "film_16",
+        "text": "剪辑点落在呼吸上"
+      },
+      {
+        "id": "film_17",
+        "text": "假纪录片的镜头尘"
+      }
+    ],
+    "戏剧": [
+      {
+        "id": "theatre_01",
+        "text": "第四堵墙的裂缝"
+      },
+      {
+        "id": "theatre_02",
+        "text": "聚光灯的圆锥体积"
+      },
+      {
+        "id": "theatre_03",
+        "text": "旁白走进灯光"
+      },
+      {
+        "id": "theatre_04",
+        "text": "面具后的声带位置"
+      },
+      {
+        "id": "theatre_05",
+        "text": "舞台机械的飞吊"
+      },
+      {
+        "id": "theatre_06",
+        "text": "静场长达八秒"
+      },
+      {
+        "id": "theatre_07",
+        "text": "合唱队的圆形站位"
+      },
+      {
+        "id": "theatre_08",
+        "text": "道具桌成为祭坛"
+      },
+      {
+        "id": "theatre_09",
+        "text": "角色互换的衣帽钩"
+      },
+      {
+        "id": "theatre_10",
+        "text": "观众席里的一声咳嗽"
+      },
+      {
+        "id": "theatre_11",
+        "text": "侧幕条的垂直褶皱"
+      },
+      {
+        "id": "theatre_12",
+        "text": "即兴打破的剧本网格"
+      },
+      {
+        "id": "theatre_13",
+        "text": "灯光突然切成脚光"
+      },
+      {
+        "id": "theatre_14",
+        "text": "台词的节奏像鼓点"
+      },
+      {
+        "id": "theatre_15",
+        "text": "退场时未关的门缝"
+      },
+      {
+        "id": "theatre_16",
+        "text": "反派站在中心偏左"
+      },
+      {
+        "id": "theatre_17",
+        "text": "谢幕前的未完成动作"
+      }
+    ],
+    "自然": [
+      {
+        "id": "nature_01",
+        "text": "潮汐留下的盐晶线"
+      },
+      {
+        "id": "nature_02",
+        "text": "年轮里的干旱缺口"
+      },
+      {
+        "id": "nature_03",
+        "text": "菌丝网络的地下通讯"
+      },
+      {
+        "id": "nature_04",
+        "text": "峡谷的回声衰减"
+      },
+      {
+        "id": "nature_05",
+        "text": "候鸟的磁感应航线"
+      },
+      {
+        "id": "nature_06",
+        "text": "霜花的六边形逼近"
+      },
+      {
+        "id": "nature_07",
+        "text": "火山灰里的玻璃碎片"
+      },
+      {
+        "id": "nature_08",
+        "text": "河流袭夺的直角弯"
+      },
+      {
+        "id": "nature_09",
+        "text": "萤火虫的同步闪烁"
+      },
+      {
+        "id": "nature_10",
+        "text": "喀斯特的溶蚀空洞"
+      },
+      {
+        "id": "nature_11",
+        "text": "风力塑造的旗形树"
+      },
+      {
+        "id": "nature_12",
+        "text": "泥炭层保存的花粉"
+      },
+      {
+        "id": "nature_13",
+        "text": "极光帘的磁力线"
+      },
+      {
+        "id": "nature_14",
+        "text": "沙漠漆的氧化皮"
+      },
+      {
+        "id": "nature_15",
+        "text": "潮间带的呼吸孔"
+      },
+      {
+        "id": "nature_16",
+        "text": "雪层中的等温面"
+      },
+      {
+        "id": "nature_17",
+        "text": "珊瑚的钙质年轮"
+      }
+    ],
+    "科学": [
+      {
+        "id": "sci_01",
+        "text": "薛定谔方程"
+      },
+      {
+        "id": "sci_02",
+        "text": "干涉条纹的相位差"
+      },
+      {
+        "id": "sci_03",
+        "text": "布朗运动的轨迹毛刺"
+      },
+      {
+        "id": "sci_04",
+        "text": "熵增方向的单向阀"
+      },
+      {
+        "id": "sci_05",
+        "text": "普朗克尺度的颗粒"
+      },
+      {
+        "id": "sci_06",
+        "text": "混沌吸引子的折叠"
+      },
+      {
+        "id": "sci_07",
+        "text": "晶体位错的缺陷线"
+      },
+      {
+        "id": "sci_08",
+        "text": "同位素的半衰期刻度"
+      },
+      {
+        "id": "sci_09",
+        "text": "超导的零电阻走廊"
+      },
+      {
+        "id": "sci_10",
+        "text": "波粒二象的狭缝"
+      },
+      {
+        "id": "sci_11",
+        "text": "费曼图的交叉顶点"
+      },
+      {
+        "id": "sci_12",
+        "text": "相变临界的涨落"
+      },
+      {
+        "id": "sci_13",
+        "text": "观测导致的波函数塌缩"
+      },
+      {
+        "id": "sci_14",
+        "text": "自旋的向上或向下"
+      },
+      {
+        "id": "sci_15",
+        "text": "暗物质的不可见质量"
+      },
+      {
+        "id": "sci_16",
+        "text": "光速不变的标尺"
+      },
+      {
+        "id": "sci_17",
+        "text": "分子热运动的平均自由程"
+      },
+      {
+        "id": "sci_18",
+        "text": "光谱线的指纹缝"
+      }
+    ],
+    "书法": [
+      {
+        "id": "calli_01",
+        "text": "飞白里的枯笔气流"
+      },
+      {
+        "id": "calli_02",
+        "text": "中锋走线的圆柱感"
+      },
+      {
+        "id": "calli_03",
+        "text": "侧锋切入的薄刃"
+      },
+      {
+        "id": "calli_04",
+        "text": "章法中的上紧下松"
+      },
+      {
+        "id": "calli_05",
+        "text": "墨色由焦到淡的潮汐"
+      },
+      {
+        "id": "calli_06",
+        "text": "折纸般的转折内擫"
+      },
+      {
+        "id": "calli_07",
+        "text": "行气如一条暗河"
+      },
+      {
+        "id": "calli_08",
+        "text": "碑刻残渤的时间缺口"
+      },
+      {
+        "id": "calli_09",
+        "text": "隶变时的蚕头雁尾"
+      },
+      {
+        "id": "calli_10",
+        "text": "草书的使转惯性"
+      },
+      {
+        "id": "calli_11",
+        "text": "留白被笔画挤压成形"
+      },
+      {
+        "id": "calli_12",
+        "text": "落款的微小重力"
+      },
+      {
+        "id": "calli_13",
+        "text": "乌丝栏的隐形网格"
+      },
+      {
+        "id": "calli_14",
+        "text": "笔锋回藏的收束"
+      },
+      {
+        "id": "calli_15",
+        "text": "涨墨渗透的纤维"
+      },
+      {
+        "id": "calli_16",
+        "text": "一字内部的疏密对峙"
+      },
+      {
+        "id": "calli_17",
+        "text": "题跋与正文的对话距离"
+      }
+    ],
+    "雕塑": [
+      {
+        "id": "sculp_01",
+        "text": "负空间被掏空的体积"
+      },
+      {
+        "id": "sculp_02",
+        "text": "大理石纹路的走向"
+      },
+      {
+        "id": "sculp_03",
+        "text": "青铜浇注的气眼"
+      },
+      {
+        "id": "sculp_04",
+        "text": "衣褶的重力垂坠"
+      },
+      {
+        "id": "sculp_05",
+        "text": "底座与地面的接缝"
+      },
+      {
+        "id": "sculp_06",
+        "text": "刀痕保留的切削方向"
+      },
+      {
+        "id": "sculp_07",
+        "text": "光沿曲面滑动的高光带"
+      },
+      {
+        "id": "sculp_08",
+        "text": "孔洞把风景借进来"
+      },
+      {
+        "id": "sculp_09",
+        "text": "人体比例的八头身网格"
+      },
+      {
+        "id": "sculp_10",
+        "text": "焊接点的黑色结痂"
+      },
+      {
+        "id": "sculp_11",
+        "text": "风化作用的圆钝边缘"
+      },
+      {
+        "id": "sculp_12",
+        "text": "模具分型线的细脊"
+      },
+      {
+        "id": "sculp_13",
+        "text": "悬臂结构的危险平衡"
+      },
+      {
+        "id": "sculp_14",
+        "text": "触感先于视觉的粗糙"
+      },
+      {
+        "id": "sculp_15",
+        "text": "影子成为第五立面"
+      },
+      {
+        "id": "sculp_16",
+        "text": "碎片拼回的错位接缝"
+      },
+      {
+        "id": "sculp_17",
+        "text": "空心铸造的内壁回声"
+      }
+    ],
+    "舞蹈": [
+      {
+        "id": "dance_01",
+        "text": "重心转换的瞬间失重"
+      },
+      {
+        "id": "dance_02",
+        "text": "地板摩擦的脚掌热"
+      },
+      {
+        "id": "dance_03",
+        "text": "脊柱如波浪的节段"
+      },
+      {
+        "id": "dance_04",
+        "text": "对称轴突然被打破"
+      },
+      {
+        "id": "dance_05",
+        "text": "呼吸驱动的扩张收缩"
+      },
+      {
+        "id": "dance_06",
+        "text": "群舞的相位差"
+      },
+      {
+        "id": "dance_07",
+        "text": "停顿里的势能蓄积"
+      },
+      {
+        "id": "dance_08",
+        "text": "手腕引出的空间线"
+      },
+      {
+        "id": "dance_09",
+        "text": "落地缓冲的屈膝弹簧"
+      },
+      {
+        "id": "dance_10",
+        "text": "视线作为隐形道具"
+      },
+      {
+        "id": "dance_11",
+        "text": "节奏切分在肩胛"
+      },
+      {
+        "id": "dance_12",
+        "text": "旋转中的眩晕轴"
+      },
+      {
+        "id": "dance_13",
+        "text": "接触即兴的重量交换"
+      },
+      {
+        "id": "dance_14",
+        "text": "服装下摆的延迟跟随"
+      },
+      {
+        "id": "dance_15",
+        "text": "舞台对角线的穿越"
+      },
+      {
+        "id": "dance_16",
+        "text": "静止造型的内部振动"
+      },
+      {
+        "id": "dance_17",
+        "text": "音乐休止时的身体余震"
+      }
+    ],
+    "哲学": [
+      {
+        "id": "phil_01",
+        "text": "物自体不可抵达的岸"
+      },
+      {
+        "id": "phil_02",
+        "text": "语言游戏的规则裂缝"
+      },
+      {
+        "id": "phil_03",
+        "text": "他者面孔的伦理命令"
+      },
+      {
+        "id": "phil_04",
+        "text": "时间作为内感官形式"
+      },
+      {
+        "id": "phil_05",
+        "text": "存在先于本质的倒置"
+      },
+      {
+        "id": "phil_06",
+        "text": "洞穴壁上的投影误差"
+      },
+      {
+        "id": "phil_07",
+        "text": "差异重复的永恒轮回"
+      },
+      {
+        "id": "phil_08",
+        "text": "主体被话语所书写"
+      },
+      {
+        "id": "phil_09",
+        "text": "偶然性的绝对必要"
+      },
+      {
+        "id": "phil_10",
+        "text": "空无并非单纯的缺席"
+      },
+      {
+        "id": "phil_11",
+        "text": "判断力的二律背反"
+      },
+      {
+        "id": "phil_12",
+        "text": "世界作为意志的表象"
+      },
+      {
+        "id": "phil_13",
+        "text": "身体图式的前反思"
+      },
+      {
+        "id": "phil_14",
+        "text": "真理发生在去蔽之际"
+      },
+      {
+        "id": "phil_15",
+        "text": "共同体想象的边界线"
+      },
+      {
+        "id": "phil_16",
+        "text": "沉默比命题更重"
+      },
+      {
+        "id": "phil_17",
+        "text": "意义在使用中显现"
+      }
+    ],
+    "爱情": [
+      {
+        "id": "love_01",
+        "text": "情感的多巴胺戒断"
+      },
+      {
+        "id": "love_02",
+        "text": "依恋的双盲实验"
+      },
+      {
+        "id": "love_03",
+        "text": "引力边缘的相遇"
+      },
+      {
+        "id": "love_04",
+        "text": "灵魂的拓扑折叠"
+      },
+      {
+        "id": "love_05",
+        "text": "镜像神经元的共振"
+      },
+      {
+        "id": "love_06",
+        "text": "距离的平方反比温柔"
+      },
+      {
+        "id": "love_07",
+        "text": "心跳的相位锁定"
+      },
+      {
+        "id": "love_08",
+        "text": "不可逆的熵交换"
+      },
+      {
+        "id": "love_09",
+        "text": "平行世界的一次擦肩"
+      },
+      {
+        "id": "love_10",
+        "text": "语言之前的场强"
+      },
+      {
+        "id": "love_11",
+        "text": "伤口的结晶生长"
+      },
+      {
+        "id": "love_12",
+        "text": "时间晶体般的承诺"
+      },
+      {
+        "id": "love_13",
+        "text": "观测使关系塌缩"
+      },
+      {
+        "id": "love_14",
+        "text": "两体问题的不稳定轨道"
+      },
+      {
+        "id": "love_15",
+        "text": "沉默构成的势阱"
+      },
+      {
+        "id": "love_16",
+        "text": "记忆的半衰期"
+      },
+      {
+        "id": "love_17",
+        "text": "对称性破缺的那一瞬"
+      },
+      {
+        "id": "love_18",
+        "text": "靠近时的测不准"
+      }
+    ],
+    "逻辑": [
+      {
+        "id": "logic_01",
+        "text": "回溯算法 (Backtracking)"
+      },
+      {
+        "id": "logic_02",
+        "text": "二叉树遍历"
+      },
+      {
+        "id": "logic_03",
+        "text": "哥德尔不完备定理"
+      },
+      {
+        "id": "logic_04",
+        "text": "谓词逻辑的量词嵌套"
+      },
+      {
+        "id": "logic_05",
+        "text": "图灵停机问题"
+      },
+      {
+        "id": "logic_06",
+        "text": "组合爆炸的剪枝"
+      },
+      {
+        "id": "logic_07",
+        "text": "模态逻辑的可能世界"
+      },
+      {
+        "id": "logic_08",
+        "text": "归纳偏置的缝隙"
+      },
+      {
+        "id": "logic_09",
+        "text": "悖论的自指回路"
+      },
+      {
+        "id": "logic_10",
+        "text": "形式系统的一致性裂缝"
+      },
+      {
+        "id": "logic_11",
+        "text": "公理集合的最小性"
+      },
+      {
+        "id": "logic_12",
+        "text": "证明树的叶节点"
+      },
+      {
+        "id": "logic_13",
+        "text": "不可判定的边界"
+      },
+      {
+        "id": "logic_14",
+        "text": "信息熵的决策阈值"
+      },
+      {
+        "id": "logic_15",
+        "text": "多项式时间的归约"
+      },
+      {
+        "id": "logic_16",
+        "text": "排中律失效的中间值"
+      },
+      {
+        "id": "logic_17",
+        "text": "认知闭合的失败"
+      },
+      {
+        "id": "logic_18",
+        "text": "反证法的假设爆破"
+      }
+    ],
+    "几何": [
+      {
+        "id": "geo_01",
+        "text": "非欧平面的弯曲平行"
+      },
+      {
+        "id": "geo_02",
+        "text": "黄金矩形的无限内切"
+      },
+      {
+        "id": "geo_03",
+        "text": "莫比乌斯带的单面行走"
+      },
+      {
+        "id": "geo_04",
+        "text": "分形海岸线的无限周长"
+      },
+      {
+        "id": "geo_05",
+        "text": "拓扑同胚的橡皮变形"
+      },
+      {
+        "id": "geo_06",
+        "text": "投影几何的灭点簇"
+      },
+      {
+        "id": "geo_07",
+        "text": "正二十面体的顶点价"
+      },
+      {
+        "id": "geo_08",
+        "text": "最小曲面的肥皂膜"
+      },
+      {
+        "id": "geo_09",
+        "text": "泰森多边形的领地分割"
+      },
+      {
+        "id": "geo_10",
+        "text": "螺旋线的等角生长"
+      },
+      {
+        "id": "geo_11",
+        "text": "亏格为二的甜甜圈面"
+      },
+      {
+        "id": "geo_12",
+        "text": "向量场的奇点"
+      },
+      {
+        "id": "geo_13",
+        "text": "对称群的操作闭包"
+      },
+      {
+        "id": "geo_14",
+        "text": "测地线的最短路径"
+      },
+      {
+        "id": "geo_15",
+        "text": "镶嵌的缺陷五边形"
+      },
+      {
+        "id": "geo_16",
+        "text": "高维立方的阴影切片"
+      },
+      {
+        "id": "geo_17",
+        "text": "曲率突然改变的折痕"
+      }
+    ],
+    "器物": [
+      {
+        "id": "obj_01",
+        "text": "锈蚀的金属开瓶器"
+      },
+      {
+        "id": "obj_02",
+        "text": "磨损的黄铜卡尺"
+      },
+      {
+        "id": "obj_03",
+        "text": "裂纹釉的茶盏口"
+      },
+      {
+        "id": "obj_04",
+        "text": "弹簧秤的零点漂移"
+      },
+      {
+        "id": "obj_05",
+        "text": "木工刨刃的卷屑"
+      },
+      {
+        "id": "obj_06",
+        "text": "煤油灯罩的积碳圈"
+      },
+      {
+        "id": "obj_07",
+        "text": "老式打字机的色带"
+      },
+      {
+        "id": "obj_08",
+        "text": "磁铁吸住的铁屑胡须"
+      },
+      {
+        "id": "obj_09",
+        "text": "砂漏颈部的拥堵"
+      },
+      {
+        "id": "obj_10",
+        "text": "铜锁内部的叶片"
+      },
+      {
+        "id": "obj_11",
+        "text": "砚台池中的宿墨"
+      },
+      {
+        "id": "obj_12",
+        "text": "缝纫机的摆梭轨迹"
+      },
+      {
+        "id": "obj_13",
+        "text": "温度计水银柱的断裂"
+      },
+      {
+        "id": "obj_14",
+        "text": "放大镜下的指纹脊"
+      },
+      {
+        "id": "obj_15",
+        "text": "陶瓷绝缘子的伞裙"
+      },
+      {
+        "id": "obj_16",
+        "text": "旧收音机的调谐刻度"
+      },
+      {
+        "id": "obj_17",
+        "text": "手工锯条的齿形"
+      }
+    ],
+    "交通": [
+      {
+        "id": "transit_01",
+        "text": "立交桥的空间缠绕"
+      },
+      {
+        "id": "transit_02",
+        "text": "轨道接缝的节律撞击"
+      },
+      {
+        "id": "transit_03",
+        "text": "港口集装箱的模数堆叠"
+      },
+      {
+        "id": "transit_04",
+        "text": "机场滑行道的黄线指令"
+      },
+      {
+        "id": "transit_05",
+        "text": "地铁风井的呼吸"
+      },
+      {
+        "id": "transit_06",
+        "text": "船闸水位的阶跃"
+      },
+      {
+        "id": "transit_07",
+        "text": "单行线的不可逆"
+      },
+      {
+        "id": "transit_08",
+        "text": "红绿灯相位的时间切片"
+      },
+      {
+        "id": "transit_09",
+        "text": "货运编组站的分道"
+      },
+      {
+        "id": "transit_10",
+        "text": "索道的悬链线下垂"
+      },
+      {
+        "id": "transit_11",
+        "text": "轮胎花纹的排水槽"
+      },
+      {
+        "id": "transit_12",
+        "text": "里程碑被植被吞没"
+      },
+      {
+        "id": "transit_13",
+        "text": "运河的弯曲补偿"
+      },
+      {
+        "id": "transit_14",
+        "text": "换乘通道的人流层流"
+      },
+      {
+        "id": "transit_15",
+        "text": "夜航灯的频率编码"
+      },
+      {
+        "id": "transit_16",
+        "text": "高架阴影下的冷却带"
+      },
+      {
+        "id": "transit_17",
+        "text": "地图折叠处的道路断裂"
+      }
+    ],
+    "排版": [
+      {
+        "id": "type_01",
+        "text": "字距过紧的碰撞"
+      },
+      {
+        "id": "type_02",
+        "text": "基线网格的隐形床"
+      },
+      {
+        "id": "type_03",
+        "text": "孤行落在页底"
+      },
+      {
+        "id": "type_04",
+        "text": "衬线末端的应力点"
+      },
+      {
+        "id": "type_05",
+        "text": "栏宽与行长的呼吸比"
+      },
+      {
+        "id": "type_06",
+        "text": "标点悬挂在栏外"
+      },
+      {
+        "id": "type_07",
+        "text": "字号突变的层级悬崖"
+      },
+      {
+        "id": "type_08",
+        "text": "负空间组成的字母腔"
+      },
+      {
+        "id": "type_09",
+        "text": "齐头不齐尾的参差"
+      },
+      {
+        "id": "type_10",
+        "text": "印刷套准的色偏缝"
+      },
+      {
+        "id": "type_11",
+        "text": "标题追踪的过度拉开"
+      },
+      {
+        "id": "type_12",
+        "text": "脚注序号的微重力"
+      },
+      {
+        "id": "type_13",
+        "text": "网格被一张图打破"
+      },
+      {
+        "id": "type_14",
+        "text": "黑体横竖的光学校正"
+      },
+      {
+        "id": "type_15",
+        "text": "空白页作为最大字号"
+      },
+      {
+        "id": "type_16",
+        "text": "连字符把语义锯开"
+      },
+      {
+        "id": "type_17",
+        "text": "页码在切口处的脉搏"
+      }
+    ],
+    "认知": [
+      {
+        "id": "cog_01",
+        "text": "工作记忆的七加减二"
+      },
+      {
+        "id": "cog_02",
+        "text": "注意的聚光灯边缘"
+      },
+      {
+        "id": "cog_03",
+        "text": "错误记忆的填补"
+      },
+      {
+        "id": "cog_04",
+        "text": "双任务干扰的瓶颈"
+      },
+      {
+        "id": "cog_05",
+        "text": "图式对输入的裁剪"
+      },
+      {
+        "id": "cog_06",
+        "text": "启动效应的潜伏期"
+      },
+      {
+        "id": "cog_07",
+        "text": "心理旋转的角度代价"
+      },
+      {
+        "id": "cog_08",
+        "text": "确认偏误的闭环"
+      },
+      {
+        "id": "cog_09",
+        "text": "心智模型的过时地图"
+      },
+      {
+        "id": "cog_10",
+        "text": "内隐学习的无法言说"
+      },
+      {
+        "id": "cog_11",
+        "text": "认知负荷的溢出"
+      },
+      {
+        "id": "cog_12",
+        "text": "面孔识别的倒立失效"
+      },
+      {
+        "id": "cog_13",
+        "text": "时间知觉的弹性"
+      },
+      {
+        "id": "cog_14",
+        "text": "元认知的监控层"
+      },
+      {
+        "id": "cog_15",
+        "text": "默认网络的走神"
+      },
+      {
+        "id": "cog_16",
+        "text": "预测误差的惊讶脉冲"
+      },
+      {
+        "id": "cog_17",
+        "text": "语言标签改写色觉"
+      }
+    ],
+    "饮食": [
+      {
+        "id": "food_01",
+        "text": "美拉德反应的焦香层"
+      },
+      {
+        "id": "food_02",
+        "text": "发酵气泡的缓慢抬升"
+      },
+      {
+        "id": "food_03",
+        "text": "刀工里的纤维方向"
+      },
+      {
+        "id": "food_04",
+        "text": "乳化失败的油水分离"
+      },
+      {
+        "id": "food_05",
+        "text": "火候窗口的三十秒"
+      },
+      {
+        "id": "food_06",
+        "text": "陈酿的单宁收敛"
+      },
+      {
+        "id": "food_07",
+        "text": "盐析蛋白质的絮凝"
+      },
+      {
+        "id": "food_08",
+        "text": "冰晶刺破的细胞壁"
+      },
+      {
+        "id": "food_09",
+        "text": "香料的挥发梯度"
+      },
+      {
+        "id": "food_10",
+        "text": "酵母的无氧呼吸"
+      },
+      {
+        "id": "food_11",
+        "text": "焦糖化的临界褐变"
+      },
+      {
+        "id": "food_12",
+        "text": "口感的颗粒度谱"
+      },
+      {
+        "id": "food_13",
+        "text": "余味在舌根的驻留"
+      },
+      {
+        "id": "food_14",
+        "text": "器皿导热的迟滞"
+      },
+      {
+        "id": "food_15",
+        "text": "酸甜的拮抗平衡"
+      },
+      {
+        "id": "food_16",
+        "text": "风干表面的菌膜"
+      },
+      {
+        "id": "food_17",
+        "text": "切割面的氧化变色"
+      }
+    ],
+    "光学": [
+      {
+        "id": "opt_01",
+        "text": "全内反射的临界角"
+      },
+      {
+        "id": "opt_02",
+        "text": "偏振片交叉的灭暗"
+      },
+      {
+        "id": "opt_03",
+        "text": "衍射造成的艾里斑"
+      },
+      {
+        "id": "opt_04",
+        "text": "色散把白光拉开"
+      },
+      {
+        "id": "opt_05",
+        "text": "透镜像差的彗星尾"
+      },
+      {
+        "id": "opt_06",
+        "text": "双缝后的概率条纹"
+      },
+      {
+        "id": "opt_07",
+        "text": "菲涅尔透镜的环带"
+      },
+      {
+        "id": "opt_08",
+        "text": "漫反射的无方向光雾"
+      },
+      {
+        "id": "opt_09",
+        "text": "激光的相干长度"
+      },
+      {
+        "id": "opt_10",
+        "text": "针孔的成像倒转"
+      },
+      {
+        "id": "opt_11",
+        "text": "镀膜干涉的油彩"
+      },
+      {
+        "id": "opt_12",
+        "text": "阴影边缘的半影带"
+      },
+      {
+        "id": "opt_13",
+        "text": "光纤里的跳跃路径"
+      },
+      {
+        "id": "opt_14",
+        "text": "色温曲线的昼夜漂移"
+      },
+      {
+        "id": "opt_15",
+        "text": "红外不可见的热轮廓"
+      },
+      {
+        "id": "opt_16",
+        "text": "光圈叶片的星芒"
+      },
+      {
+        "id": "opt_17",
+        "text": "折射率突变的界面"
+      }
+    ],
+    "神话": [
+      {
+        "id": "myth_01",
+        "text": "世界卵的第一次破裂"
+      },
+      {
+        "id": "myth_02",
+        "text": "盗火者的肝脏循环"
+      },
+      {
+        "id": "myth_03",
+        "text": "迷宫中的线团算法"
+      },
+      {
+        "id": "myth_04",
+        "text": "名字被夺走的失重"
+      },
+      {
+        "id": "myth_05",
+        "text": "洪水之前的高地坐标"
+      },
+      {
+        "id": "myth_06",
+        "text": "变形记的物种边界"
+      },
+      {
+        "id": "myth_07",
+        "text": "冥河上的一枚钱币"
+      },
+      {
+        "id": "myth_08",
+        "text": "太阳舟的夜间检修"
+      },
+      {
+        "id": "myth_09",
+        "text": "镜子里的替身"
+      },
+      {
+        "id": "myth_10",
+        "text": "预言自我实现的闭环"
+      },
+      {
+        "id": "myth_11",
+        "text": "巨人被自己的阴影绊倒"
+      },
+      {
+        "id": "myth_12",
+        "text": "祭品与季节的交换率"
+      },
+      {
+        "id": "myth_13",
+        "text": "门槛神的双向拒绝"
+      },
+      {
+        "id": "myth_14",
+        "text": "星座是被钉住的叙事"
+      },
+      {
+        "id": "myth_15",
+        "text": "忘川水的信息擦除"
+      },
+      {
+        "id": "myth_16",
+        "text": "创世失败的草稿世界"
+      },
+      {
+        "id": "myth_17",
+        "text": "神谕模棱两可的语法"
+      }
+    ],
+    "城市": [
+      {
+        "id": "city_01",
+        "text": "排水井盖的铸铁纹章"
+      },
+      {
+        "id": "city_02",
+        "text": "高架桥下的剩余空间"
+      },
+      {
+        "id": "city_03",
+        "text": "霓虹在湿沥青上的重影"
+      },
+      {
+        "id": "city_04",
+        "text": "晨间垃圾车的路线算法"
+      },
+      {
+        "id": "city_05",
+        "text": "建筑缝里的风哨"
+      },
+      {
+        "id": "city_06",
+        "text": "人行天桥的透视压缩"
+      },
+      {
+        "id": "city_07",
+        "text": "地铁出风口的热尘柱"
+      },
+      {
+        "id": "city_08",
+        "text": "街角摄像头的盲区锥"
+      },
+      {
+        "id": "city_09",
+        "text": "夜店散场后的声压回落"
+      },
+      {
+        "id": "city_10",
+        "text": "施工围挡的临时国境"
+      },
+      {
+        "id": "city_11",
+        "text": "天际线被塔吊改写"
+      },
+      {
+        "id": "city_12",
+        "text": "地下管网的不可见图"
+      },
+      {
+        "id": "city_13",
+        "text": "窗口格子的随机点亮"
+      },
+      {
+        "id": "city_14",
+        "text": "骑楼阴影的日间避难"
+      },
+      {
+        "id": "city_15",
+        "text": "广告牌支架的结构露骨"
+      },
+      {
+        "id": "city_16",
+        "text": "雨后井盖浮起的警告"
+      },
+      {
+        "id": "city_17",
+        "text": "跨街区的气味锋面"
+      }
+    ],
+    "服饰": [
+      {
+        "id": "fashion_01",
+        "text": "缝份里的隐藏余量"
+      },
+      {
+        "id": "fashion_02",
+        "text": "斜裁造成的垂坠偏转"
+      },
+      {
+        "id": "fashion_03",
+        "text": "垫肩改写的肩线几何"
+      },
+      {
+        "id": "fashion_04",
+        "text": "纤维的经纬张力差"
+      },
+      {
+        "id": "fashion_05",
+        "text": "拉链齿的咬合公差"
+      },
+      {
+        "id": "fashion_06",
+        "text": "褶饰折叠的体积算法"
+      },
+      {
+        "id": "fashion_07",
+        "text": "染料在纤维中的迁移"
+      },
+      {
+        "id": "fashion_08",
+        "text": "里衬与面料的温差"
+      },
+      {
+        "id": "fashion_09",
+        "text": "扣距作为节奏单位"
+      },
+      {
+        "id": "fashion_10",
+        "text": "磨损先发生在摩擦高点"
+      },
+      {
+        "id": "fashion_11",
+        "text": "透明层叠加的光学厚度"
+      },
+      {
+        "id": "fashion_12",
+        "text": "结构线切开的人体分区"
+      },
+      {
+        "id": "fashion_13",
+        "text": "弹性回复的滞后曲线"
+      },
+      {
+        "id": "fashion_14",
+        "text": "口袋成为内部建筑"
+      },
+      {
+        "id": "fashion_15",
+        "text": "帽檐投射的移动阴影"
+      },
+      {
+        "id": "fashion_16",
+        "text": "线迹密度的坚固标尺"
+      },
+      {
+        "id": "fashion_17",
+        "text": "褶皱记忆的热定型"
+      }
+    ]
+  },
+  "quotes": [
+    {
+      "id": "q_music_01",
+      "text": "Follow one instrument until the rest of the room falls away.",
+      "author": "Original prompt",
+      "theme": "音乐"
+    },
+    {
+      "id": "q_music_02",
+      "text": "Tap a rhythm, then leave out the beat you were about to play.",
+      "author": "Original prompt",
+      "theme": "音乐"
+    },
+    {
+      "id": "q_music_03",
+      "text": "Hold a single tone until you can hear the room answer it.",
+      "author": "Original prompt",
+      "theme": "音乐"
+    },
+    {
+      "id": "q_music_04",
+      "text": "Start a phrase and stop while it still has somewhere to go.",
+      "author": "Original prompt",
+      "theme": "音乐"
+    },
+    {
+      "id": "q_music_05",
+      "text": "Record the room before anyone begins, and keep that take.",
+      "author": "Original prompt",
+      "theme": "音乐"
+    },
+    {
+      "id": "q_paint_01",
+      "text": "Name the color that is missing, then work around its absence.",
+      "author": "Original prompt",
+      "theme": "绘画"
+    },
+    {
+      "id": "q_paint_02",
+      "text": "Put two colors side by side and write which one steps forward.",
+      "author": "Original prompt",
+      "theme": "绘画"
+    },
+    {
+      "id": "q_paint_03",
+      "text": "Leave a patch of the ground showing, and decide what it holds.",
+      "author": "Original prompt",
+      "theme": "绘画"
+    },
+    {
+      "id": "q_paint_04",
+      "text": "Draw the same edge three times and keep the hesitant one.",
+      "author": "Original prompt",
+      "theme": "绘画"
+    },
+    {
+      "id": "q_arch_01",
+      "text": "Stand in a doorway and notice what the frame cuts from the view.",
+      "author": "Original prompt",
+      "theme": "建筑"
+    },
+    {
+      "id": "q_arch_02",
+      "text": "Follow a shadow across the floor until it meets a wall.",
+      "author": "Original prompt",
+      "theme": "建筑"
+    },
+    {
+      "id": "q_arch_03",
+      "text": "Count the steps between two rooms and ask what that distance is for.",
+      "author": "Original prompt",
+      "theme": "建筑"
+    },
+    {
+      "id": "q_arch_04",
+      "text": "Find where daylight first enters, and stay there for a minute.",
+      "author": "Original prompt",
+      "theme": "建筑"
+    },
+    {
+      "id": "q_mech_01",
+      "text": "Watch one hinge through a full swing and note where it sticks.",
+      "author": "Original prompt",
+      "theme": "机械"
+    },
+    {
+      "id": "q_mech_02",
+      "text": "Trace a force from the handle in your hand down to the floor.",
+      "author": "Original prompt",
+      "theme": "机械"
+    },
+    {
+      "id": "q_mech_03",
+      "text": "Take one moving part and ask what would happen if it moved less.",
+      "author": "Original prompt",
+      "theme": "机械"
+    },
+    {
+      "id": "q_mech_04",
+      "text": "Listen to a machine idling and separate the sounds that mean work.",
+      "author": "Original prompt",
+      "theme": "机械"
+    },
+    {
+      "id": "q_lit_01",
+      "text": "Write one sentence that could open a room you have not entered.",
+      "author": "Original prompt",
+      "theme": "文学"
+    },
+    {
+      "id": "q_lit_02",
+      "text": "Copy a line from today and remove every word that explains it.",
+      "author": "Original prompt",
+      "theme": "文学"
+    },
+    {
+      "id": "q_lit_03",
+      "text": "Describe an object as if it had just learned your name.",
+      "author": "Original prompt",
+      "theme": "文学"
+    },
+    {
+      "id": "q_lit_04",
+      "text": "Stop the paragraph one sentence before it becomes tidy.",
+      "author": "Original prompt",
+      "theme": "文学"
+    },
+    {
+      "id": "q_photo_01",
+      "text": "Wait until the light moves, then make the picture you did not plan.",
+      "author": "Original prompt",
+      "theme": "摄影"
+    },
+    {
+      "id": "q_photo_02",
+      "text": "Frame a scene so that something important sits just outside it.",
+      "author": "Original prompt",
+      "theme": "摄影"
+    },
+    {
+      "id": "q_photo_03",
+      "text": "Step closer until the background has to choose a side.",
+      "author": "Original prompt",
+      "theme": "摄影"
+    },
+    {
+      "id": "q_photo_04",
+      "text": "Photograph the moment after the event, while hands are still busy.",
+      "author": "Original prompt",
+      "theme": "摄影"
+    },
+    {
+      "id": "q_film_01",
+      "text": "Watch a scene with the sound off and write what the bodies do.",
+      "author": "Original prompt",
+      "theme": "电影"
+    },
+    {
+      "id": "q_film_02",
+      "text": "Cut a minute in half and see which half still carries the action.",
+      "author": "Original prompt",
+      "theme": "电影"
+    },
+    {
+      "id": "q_film_03",
+      "text": "Hold on an empty chair long enough for someone to imagine sitting.",
+      "author": "Original prompt",
+      "theme": "电影"
+    },
+    {
+      "id": "q_film_04",
+      "text": "Let the camera stay still while the room finishes its own movement.",
+      "author": "Original prompt",
+      "theme": "电影"
+    },
+    {
+      "id": "q_theatre_01",
+      "text": "Clear a corner and decide what that empty space is asking for.",
+      "author": "Original prompt",
+      "theme": "戏剧"
+    },
+    {
+      "id": "q_theatre_02",
+      "text": "Speak a line to the wall, then speak it again to a person.",
+      "author": "Original prompt",
+      "theme": "戏剧"
+    },
+    {
+      "id": "q_theatre_03",
+      "text": "Change one familiar gesture until it feels newly visible.",
+      "author": "Original prompt",
+      "theme": "戏剧"
+    },
+    {
+      "id": "q_theatre_04",
+      "text": "Give the pause a job, and do not fill it.",
+      "author": "Original prompt",
+      "theme": "戏剧"
+    },
+    {
+      "id": "q_nature_01",
+      "text": "Follow one plant from root to tip and name what it is holding.",
+      "author": "Original prompt",
+      "theme": "自然"
+    },
+    {
+      "id": "q_nature_02",
+      "text": "Sit where two habitats meet and list what crosses the line.",
+      "author": "Original prompt",
+      "theme": "自然"
+    },
+    {
+      "id": "q_nature_03",
+      "text": "Notice the smallest weather change on your skin before you name it.",
+      "author": "Original prompt",
+      "theme": "自然"
+    },
+    {
+      "id": "q_nature_04",
+      "text": "Trace one path water takes through the place you are in.",
+      "author": "Original prompt",
+      "theme": "自然"
+    },
+    {
+      "id": "q_sci_01",
+      "text": "Write what you expect, then look for the measurement that disagrees.",
+      "author": "Original prompt",
+      "theme": "科学"
+    },
+    {
+      "id": "q_sci_02",
+      "text": "Explain a result to yourself without using the word obvious.",
+      "author": "Original prompt",
+      "theme": "科学"
+    },
+    {
+      "id": "q_sci_03",
+      "text": "Separate what the instrument shows from what you hope it means.",
+      "author": "Original prompt",
+      "theme": "科学"
+    },
+    {
+      "id": "q_sci_04",
+      "text": "Change one condition and predict the smallest difference you would trust.",
+      "author": "Original prompt",
+      "theme": "科学"
+    },
+    {
+      "id": "q_sci_05",
+      "text": "Keep the question that still works after the first answer.",
+      "author": "Original prompt",
+      "theme": "科学"
+    },
+    {
+      "id": "q_calli_01",
+      "text": "一点成一字之规，一字乃终篇之准。",
+      "author": "孙过庭，《书谱》",
+      "theme": "书法"
+    },
+    {
+      "id": "q_calli_02",
+      "text": "察之者尚精，拟之者贵似。",
+      "author": "孙过庭，《书谱》",
+      "theme": "书法"
+    },
+    {
+      "id": "q_calli_03",
+      "text": "书，如也，如其学，如其才，如其志，总之曰如其人而已。",
+      "author": "刘熙载，《艺概》",
+      "theme": "书法"
+    },
+    {
+      "id": "q_calli_04",
+      "text": "书者，散也。欲书先散怀抱。",
+      "author": "蔡邕，《笔论》",
+      "theme": "书法"
+    },
+    {
+      "id": "q_sculp_01",
+      "text": "Walk around an object until it becomes a different object.",
+      "author": "Original prompt",
+      "theme": "雕塑"
+    },
+    {
+      "id": "q_sculp_02",
+      "text": "Remove one detail and see whether the form still stands.",
+      "author": "Original prompt",
+      "theme": "雕塑"
+    },
+    {
+      "id": "q_sculp_03",
+      "text": "Find the space the object is pressing into, not only the object.",
+      "author": "Original prompt",
+      "theme": "雕塑"
+    },
+    {
+      "id": "q_sculp_04",
+      "text": "Choose a surface and describe it by touch before you describe it by sight.",
+      "author": "Original prompt",
+      "theme": "雕塑"
+    },
+    {
+      "id": "q_dance_01",
+      "text": "Let one joint lead and notice which others refuse to follow.",
+      "author": "Original prompt",
+      "theme": "舞蹈"
+    },
+    {
+      "id": "q_dance_02",
+      "text": "Cross the room at half speed and mark where you want to stop.",
+      "author": "Original prompt",
+      "theme": "舞蹈"
+    },
+    {
+      "id": "q_dance_03",
+      "text": "Repeat a gesture until it changes without your deciding to change it.",
+      "author": "Original prompt",
+      "theme": "舞蹈"
+    },
+    {
+      "id": "q_dance_04",
+      "text": "Stand still long enough to feel the next movement arrive.",
+      "author": "Original prompt",
+      "theme": "舞蹈"
+    },
+    {
+      "id": "q_phil_01",
+      "text": "State the claim in one sentence, then name what it leaves out.",
+      "author": "Original prompt",
+      "theme": "哲学"
+    },
+    {
+      "id": "q_phil_02",
+      "text": "If a word will not hold still, write the situation that needs it.",
+      "author": "Original prompt",
+      "theme": "哲学"
+    },
+    {
+      "id": "q_phil_03",
+      "text": "Finish 'I could have done otherwise' with a real example from today.",
+      "author": "Original prompt",
+      "theme": "哲学"
+    },
+    {
+      "id": "q_phil_04",
+      "text": "Describe a limit without turning it into a rule for someone else.",
+      "author": "Original prompt",
+      "theme": "哲学"
+    },
+    {
+      "id": "q_love_01",
+      "text": "Write the thing you would notice if they were in the next room.",
+      "author": "Original prompt",
+      "theme": "爱情"
+    },
+    {
+      "id": "q_love_02",
+      "text": "Name a kindness that does not ask to be answered.",
+      "author": "Original prompt",
+      "theme": "爱情"
+    },
+    {
+      "id": "q_love_03",
+      "text": "Recall a conversation and keep only the sentence that changed the distance.",
+      "author": "Original prompt",
+      "theme": "爱情"
+    },
+    {
+      "id": "q_love_04",
+      "text": "Describe care as an action you could do today.",
+      "author": "Original prompt",
+      "theme": "爱情"
+    },
+    {
+      "id": "q_logic_01",
+      "text": "Reduce the problem until a smaller version can be checked by hand.",
+      "author": "Original prompt",
+      "theme": "逻辑"
+    },
+    {
+      "id": "q_logic_02",
+      "text": "Find the assumption you have not written down.",
+      "author": "Original prompt",
+      "theme": "逻辑"
+    },
+    {
+      "id": "q_logic_03",
+      "text": "Show one case where the rule fails before you trust the rule.",
+      "author": "Original prompt",
+      "theme": "逻辑"
+    },
+    {
+      "id": "q_logic_04",
+      "text": "Separate what must be true from what is only convenient.",
+      "author": "Original prompt",
+      "theme": "逻辑"
+    },
+    {
+      "id": "q_logic_05",
+      "text": "Write the path of the proof, and mark the step you cannot yet take.",
+      "author": "Original prompt",
+      "theme": "逻辑"
+    },
+    {
+      "id": "q_geo_01",
+      "text": "Draw the same shape with a ruler, then without one, and compare.",
+      "author": "Original prompt",
+      "theme": "几何"
+    },
+    {
+      "id": "q_geo_02",
+      "text": "Find a curve in the street that no simple circle will fit.",
+      "author": "Original prompt",
+      "theme": "几何"
+    },
+    {
+      "id": "q_geo_03",
+      "text": "Replace a point with a corner of the table and see which relations survive.",
+      "author": "Original prompt",
+      "theme": "几何"
+    },
+    {
+      "id": "q_geo_04",
+      "text": "Measure twice, with two different units, and keep both numbers.",
+      "author": "Original prompt",
+      "theme": "几何"
+    },
+    {
+      "id": "q_obj_01",
+      "text": "Pick up a tool and notice the first place it meets your hand.",
+      "author": "Original prompt",
+      "theme": "器物"
+    },
+    {
+      "id": "q_obj_02",
+      "text": "Remove one object from the desk and see what the space was doing.",
+      "author": "Original prompt",
+      "theme": "器物"
+    },
+    {
+      "id": "q_obj_03",
+      "text": "Repair something small before you replace it.",
+      "author": "Original prompt",
+      "theme": "器物"
+    },
+    {
+      "id": "q_obj_04",
+      "text": "Ask of each thing in reach whether it is used, or only stored.",
+      "author": "Original prompt",
+      "theme": "器物"
+    },
+    {
+      "id": "q_trans_01",
+      "text": "Walk a route you usually ride, and count the places you can stop.",
+      "author": "Original prompt",
+      "theme": "交通"
+    },
+    {
+      "id": "q_trans_02",
+      "text": "Notice who a street is built for by watching who has to yield.",
+      "author": "Original prompt",
+      "theme": "交通"
+    },
+    {
+      "id": "q_trans_03",
+      "text": "Time the wait at a crossing and write down who that wait belongs to.",
+      "author": "Original prompt",
+      "theme": "交通"
+    },
+    {
+      "id": "q_trans_04",
+      "text": "Follow one delivery from the door to the street and back.",
+      "author": "Original prompt",
+      "theme": "交通"
+    },
+    {
+      "id": "q_type_01",
+      "text": "Set a line, then widen the space until the line can breathe.",
+      "author": "Original prompt",
+      "theme": "排版"
+    },
+    {
+      "id": "q_type_02",
+      "text": "Read the paragraph aloud and mark where the type gets in the way.",
+      "author": "Original prompt",
+      "theme": "排版"
+    },
+    {
+      "id": "q_type_03",
+      "text": "Treat the margin as part of the sentence, not as leftover paper.",
+      "author": "Original prompt",
+      "theme": "排版"
+    },
+    {
+      "id": "q_type_04",
+      "text": "Align less, and check whether the eye still knows where to begin.",
+      "author": "Original prompt",
+      "theme": "排版"
+    },
+    {
+      "id": "q_type_05",
+      "text": "Make the text quieter than the thing it is trying to say.",
+      "author": "Original prompt",
+      "theme": "排版"
+    },
+    {
+      "id": "q_cog_01",
+      "text": "Write what you saw, then write what you expected to see.",
+      "author": "Original prompt",
+      "theme": "认知"
+    },
+    {
+      "id": "q_cog_02",
+      "text": "Recall a room, then check one detail the next time you enter it.",
+      "author": "Original prompt",
+      "theme": "认知"
+    },
+    {
+      "id": "q_cog_03",
+      "text": "Notice the first correction your eyes make, and name it.",
+      "author": "Original prompt",
+      "theme": "认知"
+    },
+    {
+      "id": "q_cog_04",
+      "text": "When a guess arrives early, keep it beside the evidence.",
+      "author": "Original prompt",
+      "theme": "认知"
+    },
+    {
+      "id": "q_food_01",
+      "text": "Taste one ingredient alone before you let it join the rest.",
+      "author": "Original prompt",
+      "theme": "饮食"
+    },
+    {
+      "id": "q_food_02",
+      "text": "Change only the heat, and write what the dish does differently.",
+      "author": "Original prompt",
+      "theme": "饮食"
+    },
+    {
+      "id": "q_food_03",
+      "text": "Eat slowly enough to find the moment the flavor turns.",
+      "author": "Original prompt",
+      "theme": "饮食"
+    },
+    {
+      "id": "q_food_04",
+      "text": "Describe a meal by its timing, not only by its ingredients.",
+      "author": "Original prompt",
+      "theme": "饮食"
+    },
+    {
+      "id": "q_opt_01",
+      "text": "Watch one color move from sunlight into shade.",
+      "author": "Original prompt",
+      "theme": "光学"
+    },
+    {
+      "id": "q_opt_02",
+      "text": "Cover one eye and notice which edges the room loses.",
+      "author": "Original prompt",
+      "theme": "光学"
+    },
+    {
+      "id": "q_opt_03",
+      "text": "Find a reflection that shows a part of the room you are not facing.",
+      "author": "Original prompt",
+      "theme": "光学"
+    },
+    {
+      "id": "q_opt_04",
+      "text": "Name the light before you name the object it falls on.",
+      "author": "Original prompt",
+      "theme": "光学"
+    },
+    {
+      "id": "q_myth_01",
+      "text": "Retell a familiar story and stop at the choice nobody explains.",
+      "author": "Original prompt",
+      "theme": "神话"
+    },
+    {
+      "id": "q_myth_02",
+      "text": "Find the pair of opposites the story is trying to hold together.",
+      "author": "Original prompt",
+      "theme": "神话"
+    },
+    {
+      "id": "q_myth_03",
+      "text": "Write the pattern, not the person, and see what remains.",
+      "author": "Original prompt",
+      "theme": "神话"
+    },
+    {
+      "id": "q_myth_04",
+      "text": "Notice which old story today's news is borrowing.",
+      "author": "Original prompt",
+      "theme": "神话"
+    },
+    {
+      "id": "q_city_01",
+      "text": "Walk one block and list the reasons a stranger might pause.",
+      "author": "Original prompt",
+      "theme": "城市"
+    },
+    {
+      "id": "q_city_02",
+      "text": "Mark the corner where people change direction without a sign.",
+      "author": "Original prompt",
+      "theme": "城市"
+    },
+    {
+      "id": "q_city_03",
+      "text": "Describe a neighborhood by its paths, not by its buildings alone.",
+      "author": "Original prompt",
+      "theme": "城市"
+    },
+    {
+      "id": "q_city_04",
+      "text": "Find a crowd and write what it makes possible that an empty street does not.",
+      "author": "Original prompt",
+      "theme": "城市"
+    }
+  ]
+}

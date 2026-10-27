@@ -1,0 +1,33 @@
+name: inspiration_museum
+description: "Daily discoveries, reflections, and collections, with language-model drafting and separate image generation."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+  image_picker: ^1.1.2
+  flutter_staggered_grid_view: ^0.7.0
+  path_provider: ^2.1.5
+  supabase_flutter: ^2.17.2
+  share_plus: ^13.3.0
+  google_fonts: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data.json
+  fonts:
+    - family: MuseumSerifSC
+      fonts:
+        - asset: assets/fonts/NotoSerifSC-Museum.ttf
+          weight: 600

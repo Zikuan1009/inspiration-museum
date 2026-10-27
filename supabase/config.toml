@@ -1,0 +1,11 @@
+# 密钥放在 Supabase 的环境变量里，不写进这个文件。
+project_id = "whagmiyzuhqtyjlurmht"
+
+[functions.curate-card]
+verify_jwt = true
+
+[functions.prepare-letter]
+verify_jwt = true
+
+[functions.rank-feed]
+verify_jwt = true

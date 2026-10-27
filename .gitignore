@@ -1,0 +1,73 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# Local secrets. Never commit.
+.env
+.env.*
+!.env.example
+
+# Local probes. They read secrets from the environment or from source.
+tool/probe_*.ps1
+tool/probe_out.txt
+
+# Supabase CLI local link state. Not required to build.
+/supabase/.temp/
+
+# Local operations: probes, seeds, dumps, and deploy helpers.
+# Several files contain access tokens or demo-account material.
+# The Flutter app and the Edge Functions build without this directory.
+/tool/
+
+# Local database dumps and backups.
+*.dump
+*.bak
+
+# Unused static viewer. Not referenced by the Flutter app.
+# Kept on disk and left out of the public tree until the owner decides.
+/web/view.html
