@@ -81,7 +81,7 @@ The client never receives `NEBIUS_API_KEY`, `FAL_KEY`, or the service-role key. 
 
 ## 3. Supabase database and authentication
 
-Authentication is Supabase email and password. Guest entry uses anonymous sign-in and shows an error if that provider is off. The judge button is compiled only when both `JUDGE_EMAIL` and `JUDGE_PASSWORD` are non-empty.
+Authentication is Supabase email and password. Guest entry uses anonymous sign-in and shows an error if that provider is off. Explore Judge Demo shows the dedicated demo email as a locked label and signs in with the same email and password call. The demo password is not compiled into the client.
 
 Tables this client reads or writes include `profiles`, `inspirations`, `messages`, `follows`, `likes`, `saves`, `reposts`, `comments`, `comment_likes`, `themes`, `user_theme_preferences`, `daily_letters`, `letter_drafts`, and `interest_signals`. Ranking uses `feed_ranks` on the server.
 
@@ -226,7 +226,7 @@ Timeouts on the model calls are 50 seconds. The client does not show a specific 
 | Nebius API key | Edge Function secret `NEBIUS_API_KEY` | Flutter source |
 | fal.ai key | Edge Function secret `FAL_KEY` | Flutter source |
 | Personal access token | A gitignored local env file for the CLI | The repository |
-| Judge password | A local `--dart-define` at run time | Source |
+| Judge password | Given to judges outside this repository | Source, documentation, URLs, and the web bundle |
 
 CORS on the functions allows any origin. JWT verification and `getUser()` still apply. Do not turn off `verify_jwt`.
 

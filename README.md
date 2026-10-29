@@ -1,10 +1,22 @@
 # Inspiration Museum
 
-A museum of a brighter you.
+Every inspiration deserves a place.
 
 A conventional recommendation feed learns a narrow taste and then keeps you inside it. That filter bubble is useful for retrieval and poor for creative work. Inspiration Museum keeps a different kind of memory. It remembers what you wrote about yourself, notices what you later save and make, and prepares a short discovery for another day, including directions you did not already ask for. You answer that discovery in your own words. The app helps turn the writing into a Collection, and a separate image model can paint a picture from a description of the scene.
 
 The language models draft and arrange words. They do not paint pixels, and they do not choose their own tools.
+
+## Links
+
+| | |
+| --- | --- |
+| Live demo | https://inspiration-museum-demo.pages.dev/ |
+| GitHub | https://github.com/Zikuan1009/inspiration-museum |
+| Demo video | https://youtu.be/B1LiwwjQY7Q |
+
+Screenshots are not stored in this repository. There is no downloadable iOS or Android binary here, and no Devpost page is linked from this tree. The in-app wordmark is **Inspiration Museum**. A short brand line, “A MUSEUM OF A BRIGHTER YOU”, can appear with the logo and is off in compact headers.
+
+Judge access is described in [DEMO_ACCESS.md](DEMO_ACCESS.md).
 
 ## Product overview
 
@@ -16,28 +28,12 @@ The shelf can put public Collections in an order chosen for you. If that call fa
 
 Serendipity is intentional. Declared hobbies are not the only signal, and the prompt can be told to step away from them. On some days the prepared letter is a catalog piece instead of a new draft. The product would rather show you something you did not ask for than trap you in yesterday's taste. It is still a fixed pipeline: prepare, read, write, optionally illustrate, then publish. It is not an autonomous agent.
 
-## Screenshots and demo
-
-No screenshots, demo site, or video are in this repository yet.
-
-| Item | Status |
-| --- | --- |
-| Home and Daily Inspiration | Screenshot not added |
-| Reflection and generated image | Screenshot not added |
-| A published Collection | Screenshot not added |
-| Demo URL | Not published |
-| Test build | Not published |
-| YouTube demonstration | Not published |
-| Devpost submission | Not published |
-
-Judge access is described in [DEMO_ACCESS.md](DEMO_ACCESS.md).
-
 ## Core features
 
 These behaviors are implemented in this tree:
 
 - Email and password accounts, plus a guest session when Supabase anonymous sign-in is enabled.
-- A hidden judge entrance that appears only if the binary is built with `JUDGE_EMAIL` and `JUDGE_PASSWORD`. Both are empty in source.
+- A public **Explore Judge Demo** entrance. The demo email is already selected and cannot be edited. Judges type only the password, which is distributed separately and is not in the source, the documentation, or the web build.
 - A Daily Inspiration card and a full-screen reading view.
 - A letter prepared for the next day, with a catalog fallback and a built-in starting prompt when nothing is stored for today.
 - A reflection composer with Generate Image, Go Deeper, drafts, and publishing.
@@ -134,11 +130,7 @@ supabase secrets set FAL_KEY=replace-with-fal-key
 
 Supabase injects `SUPABASE_URL`, `SUPABASE_ANON_KEY`, and `SUPABASE_SERVICE_ROLE_KEY` into functions. `.env.local` is gitignored. Do not commit real values.
 
-A local judge entrance, never committed:
-
-```bash
-flutter run --dart-define=JUDGE_EMAIL=judge@example.com --dart-define=JUDGE_PASSWORD=replace-me
-```
+The public demo email is a constant in `lib/judge_demo.dart`. Do not pass the demo password as a dart-define, a URL, or a source constant. That would place it in the public JavaScript bundle.
 
 ### Database
 
@@ -163,9 +155,7 @@ supabase functions deploy prepare-letter
 supabase functions deploy rank-feed
 ```
 
-`supabase/config.toml` sets `verify_jwt = true` for all three. Each function also calls `auth.getUser()`.
-
-On 2026-10-27 the deployed function source matched this tree. See [PHASE_7B_VERIFICATION.md](PHASE_7B_VERIFICATION.md). That was a file comparison, not a live model call. This documentation pass did not deploy again.
+`supabase/config.toml` sets `verify_jwt = true` for all three. Each function also calls `auth.getUser()`. The function source for the public demo is in `supabase/functions/`. This release did not redeploy those functions and did not make a live model call.
 
 ### Tests
 

@@ -71,3 +71,11 @@ tool/probe_out.txt
 # Unused static viewer. Not referenced by the Flutter app.
 # Kept on disk and left out of the public tree until the owner decides.
 /web/view.html
+
+# Wrangler local cache. Not part of the app.
+/.wrangler/
+
+# Local recordings and internal reports. Not part of the app.
+*.mp4
+/local-reports/
+/FINAL_GITHUB_RELEASE_REPORT.md

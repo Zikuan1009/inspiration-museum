@@ -1,6 +1,6 @@
 # Demo access
 
-This guide is for hackathon judges and reviewers. It describes how to run Inspiration Museum from this repository. It does not assume a public website is already online.
+This guide is for hackathon judges and reviewers. It describes the public web demo and how to run Inspiration Museum from this repository.
 
 No password is included here. Do not add one.
 
@@ -17,15 +17,17 @@ There is no Linux or macOS runner in this tree. A successful iOS or Android rele
 
 ## Demo URL
 
-Not published.
+https://inspiration-museum-demo.pages.dev/
 
-When a public URL exists, the organizer should paste it here and in the Devpost submission. Until then, use a local test build.
+The signed-out page is the English email and password form. A password is not included here. Signed-in behavior, including Daily Inspiration and image generation, still has to be checked with a private account.
+
+## Demo video
+
+https://youtu.be/B1LiwwjQY7Q
 
 ## Test build
 
-Not published as a downloadable binary or hosted build.
-
-To run the client locally:
+This repository does not include a downloadable iOS or Android binary. To run the client locally:
 
 1. Install a Flutter SDK that satisfies the Dart constraint in `pubspec.yaml` (`^3.13.3`).
 2. From the repository root, run `flutter pub get`.
@@ -45,15 +47,13 @@ Create a normal account with the email form if you are testing against a project
 
 ## Demo account
 
-There is no demo password in this repository.
+There is no demo password in this repository, the web build, or this guide.
 
-An older judge password was removed from source. The judge button is hidden unless someone builds the app with both of these compile-time defines:
+On https://inspiration-museum-demo.pages.dev/, choose **Explore Judge Demo**. The prepared account `judge@inspiration-museum.app` is shown and cannot be edited. The password field is empty. Enter only the password from the private hackathon submission, then choose **Enter Museum**. A wrong password shows “Wrong email or password.” Success opens Home as that existing demo user. It does not create an account, and it does not use guest sign-in.
 
-```bash
-flutter run --dart-define=JUDGE_EMAIL=judge@example.com --dart-define=JUDGE_PASSWORD=replace-me
-```
+The address is a dedicated demo identity, so it is included in the public client. Do not add the password to GitHub, the web build, or this guide.
 
-The organizer should create the demo account in Supabase and send the password through the hackathon's private channel, not through git. Rotate any password that was previously stored in source before the repository is public.
+The same Supabase user id, profile, Daily Inspiration, and Collections stay in place. This change does not reset that account.
 
 For the Daily Inspiration story to match the product, prepare the account before judging:
 
@@ -82,7 +82,7 @@ The account needs to keep working for the whole judging period. That means the S
 - Ranking can fail and leave the original order. The shelf title does not change.
 - Changing the profile does not rewrite the letter already on screen.
 - DM Serif Display and Inter load from the network the first time.
-- There is no published demo URL in this tree.
+- The public site is https://inspiration-museum-demo.pages.dev/. Signed-in screens were not checked on that deployment.
 
 ## Troubleshooting
 

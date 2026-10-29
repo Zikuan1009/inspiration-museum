@@ -53,6 +53,7 @@ class _AuthScreenState extends State<AuthScreen> {
   final _password = TextEditingController();
 
   bool isLoginMode = true;
+  bool _judgeMode = false;
   String? _emailError;
   String? _passwordError;
   bool _busy = false;
@@ -69,14 +70,38 @@ class _AuthScreenState extends State<AuthScreen> {
   void _toggleMode() {
     if (_busy) return;
     setState(() {
+      _judgeMode = false;
       isLoginMode = !isLoginMode;
       _emailError = null;
       _passwordError = null;
     });
   }
 
+  void _openJudgeDemo() {
+    if (_busy) return;
+    setState(() {
+      _judgeMode = true;
+      isLoginMode = true;
+      _email.text = JudgeDemo.publicEmail;
+      _password.clear();
+      _emailError = null;
+      _passwordError = null;
+    });
+  }
+
+  void _leaveJudgeDemo() {
+    if (_busy) return;
+    setState(() {
+      _judgeMode = false;
+      _email.clear();
+      _password.clear();
+      _emailError = null;
+      _passwordError = null;
+    });
+  }
+
   bool _validate() {
-    final email = _email.text.trim();
+    final email = _judgeMode ? JudgeDemo.publicEmail : _email.text.trim();
     final password = _password.text;
     String? emailError;
     String? passwordError;
@@ -117,12 +142,12 @@ class _AuthScreenState extends State<AuthScreen> {
       _passwordError = null;
     });
 
-    final email = _email.text.trim();
+    final email = _judgeMode ? JudgeDemo.publicEmail : _email.text.trim();
     final password = _password.text;
     final auth = AuthService.instance;
 
     try {
-      if (isLoginMode) {
+      if (isLoginMode || _judgeMode) {
         await auth.signInWithEmail(email: email, password: password);
       } else {
         await auth.signUpWithEmail(email: email, password: password);
@@ -143,35 +168,6 @@ class _AuthScreenState extends State<AuthScreen> {
     } catch (_) {
       if (!mounted) return;
       setState(() => _passwordError = 'The network is unavailable.');
-    } finally {
-      if (mounted) setState(() => _busy = false);
-    }
-  }
-
-  Future<void> _enterAsJudge() async {
-    if (_busy || !JudgeDemo.isConfigured) return;
-    setState(() {
-      _busy = true;
-      _emailError = null;
-      _passwordError = null;
-    });
-    try {
-      await AuthService.instance.signInWithEmail(
-        email: JudgeDemo.email,
-        password: JudgeDemo.password,
-      );
-      if (!mounted) return;
-      if (AuthService.instance.currentSession == null) {
-        setState(() => _passwordError = 'The judge entrance is unavailable.');
-        return;
-      }
-      await _finish();
-    } on AuthException catch (_) {
-      if (!mounted) return;
-      setState(() => _passwordError = 'The judge entrance is unavailable.');
-    } catch (_) {
-      if (!mounted) return;
-      setState(() => _passwordError = 'The judge entrance is unavailable.');
     } finally {
       if (mounted) setState(() => _busy = false);
     }
@@ -246,7 +242,12 @@ class _AuthScreenState extends State<AuthScreen> {
     final alreadyGuest = AuthService.instance.isAnonymous;
     final primaryLabel = _busy
         ? 'PROCESSING...'
-        : (isLoginMode ? 'ENTER' : 'CREATE ACCOUNT');
+        : (_judgeMode
+              ? 'Enter Museum'
+              : (isLoginMode ? 'ENTER' : 'CREATE ACCOUNT'));
+    final modeLabel = _judgeMode
+        ? 'JUDGE DEMO'
+        : (isLoginMode ? 'LOG IN' : 'REGISTER');
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -294,7 +295,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  isLoginMode ? 'LOG IN' : 'REGISTER',
+                  modeLabel,
                   style: const TextStyle(
                     fontSize: 11,
                     fontWeight: FontWeight.w600,
@@ -304,16 +305,44 @@ class _AuthScreenState extends State<AuthScreen> {
                 ),
                 const SizedBox(height: 8),
                 const Divider(height: 1, thickness: 1, color: Colors.black),
-                const SizedBox(height: 48),
-                _UnderlineField(
-                  controller: _email,
-                  label: 'EMAIL',
-                  hint: 'name@museum.mail',
-                  keyboardType: TextInputType.emailAddress,
-                  error: _emailError,
-                  enabled: !_busy,
-                  textInputAction: TextInputAction.next,
-                ),
+                if (_judgeMode) ...[
+                  const SizedBox(height: 20),
+                  const Text(
+                    'Use the demo password provided in the hackathon submission.',
+                    style: TextStyle(
+                      fontSize: 13,
+                      height: 1.45,
+                      fontWeight: FontWeight.w400,
+                      color: Colors.black,
+                    ),
+                  ),
+                  const SizedBox(height: 32),
+                  const _LockedIdentity(value: JudgeDemo.email),
+                  if (_emailError != null) ...[
+                    const SizedBox(height: 8),
+                    Text(
+                      _emailError!,
+                      style: const TextStyle(
+                        fontSize: 10,
+                        fontWeight: FontWeight.w500,
+                        letterSpacing: 0.8,
+                        height: 1.4,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ],
+                ] else ...[
+                  const SizedBox(height: 48),
+                  _UnderlineField(
+                    controller: _email,
+                    label: 'EMAIL',
+                    hint: 'name@museum.mail',
+                    keyboardType: TextInputType.emailAddress,
+                    error: _emailError,
+                    enabled: !_busy,
+                    textInputAction: TextInputAction.next,
+                  ),
+                ],
                 const SizedBox(height: 32),
                 _UnderlineField(
                   controller: _password,
@@ -347,10 +376,53 @@ class _AuthScreenState extends State<AuthScreen> {
                   ),
                 ),
                 const SizedBox(height: 20),
+                if (!_judgeMode)
+                  GestureDetector(
+                    onTap: _busy ? null : _openJudgeDemo,
+                    child: const DecoratedBox(
+                      decoration: BoxDecoration(
+                        border: Border.fromBorderSide(
+                          BorderSide(color: Colors.black, width: 1.5),
+                        ),
+                      ),
+                      child: Padding(
+                        padding: EdgeInsets.fromLTRB(16, 16, 16, 16),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Explore Judge Demo',
+                              style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w800,
+                                letterSpacing: 0.4,
+                                color: Colors.black,
+                              ),
+                            ),
+                            SizedBox(height: 6),
+                            Text(
+                              'Explore our prepared demo collection.',
+                              style: TextStyle(
+                                fontSize: 12,
+                                height: 1.4,
+                                fontWeight: FontWeight.w400,
+                                color: Color(0xFF5C5C5C),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                if (!_judgeMode) const SizedBox(height: 20),
                 GestureDetector(
-                  onTap: _busy ? null : _toggleMode,
+                  onTap: _busy
+                      ? null
+                      : (_judgeMode ? _leaveJudgeDemo : _toggleMode),
                   child: Text(
-                    isLoginMode ? 'Register' : 'Log in',
+                    _judgeMode
+                        ? 'Back to sign in'
+                        : (isLoginMode ? 'Register' : 'Log in'),
                     style: const TextStyle(
                       fontSize: 12,
                       fontWeight: FontWeight.w400,
@@ -362,7 +434,7 @@ class _AuthScreenState extends State<AuthScreen> {
                     ),
                   ),
                 ),
-                if (!alreadyGuest) ...[
+                if (!alreadyGuest && !_judgeMode) ...[
                   const SizedBox(height: 28),
                   GestureDetector(
                     onTap: _busy ? null : _enterAsGuest,
@@ -379,47 +451,56 @@ class _AuthScreenState extends State<AuthScreen> {
                     ),
                   ),
                 ],
-                if (JudgeDemo.isConfigured) ...[
-                  const SizedBox(height: 36),
-                  const Divider(height: 1, thickness: 1, color: Colors.black),
-                  const SizedBox(height: 20),
-                  GestureDetector(
-                    onTap: _busy ? null : _enterAsJudge,
-                    behavior: HitTestBehavior.opaque,
-                    child: const Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'JUDGE ENTRANCE',
-                          style: TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w800,
-                            letterSpacing: 2,
-                            color: Colors.black,
-                            decoration: TextDecoration.underline,
-                            decorationColor: Colors.black,
-                            decorationThickness: 1,
-                          ),
-                        ),
-                        SizedBox(height: 8),
-                        Text(
-                          'Open the prepared test member. The portrait, fields, and today\'s letter are already in place.',
-                          style: TextStyle(
-                            fontSize: 11,
-                            height: 1.5,
-                            letterSpacing: 0.4,
-                            color: Color(0xFF9A9A9A),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
               ],
             ),
           ),
         ),
       ),
+    );
+  }
+}
+
+class _LockedIdentity extends StatelessWidget {
+  const _LockedIdentity({required this.value});
+
+  final String value;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        const Text(
+          'DEMO ACCOUNT',
+          style: TextStyle(
+            fontSize: 9,
+            fontWeight: FontWeight.w800,
+            letterSpacing: 2.4,
+            color: Colors.black,
+          ),
+        ),
+        const SizedBox(height: 12),
+        DecoratedBox(
+          decoration: const BoxDecoration(
+            border: Border(
+              bottom: BorderSide(color: Colors.black, width: 2),
+            ),
+          ),
+          child: Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: Text(
+              value,
+              style: const TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w500,
+                letterSpacing: 0.2,
+                height: 1.35,
+                color: Colors.black,
+              ),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
